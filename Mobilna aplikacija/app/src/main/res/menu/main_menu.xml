@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<group>
+
+    <item
+    android:title="Competitions">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_euro"
+                android:title="Euro 2024"
+                android:icon="@drawable/euro" />
+
+
+            <item
+                android:id="@+id/nav_pl"
+                android:title="Premier League"
+                android:icon="@drawable/pl"/>
+
+        </menu>
+
+    </item>
+
+</group>
+
+    <group>
+
+        <item
+            android:title="Logout">
+
+            <menu>
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="Logout"
+                    android:icon="@drawable/logout"/>
+
+            </menu>
+
+        </item>
+
+
+    </group>
+
+</menu>
